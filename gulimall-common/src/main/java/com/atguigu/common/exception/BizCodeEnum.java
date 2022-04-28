@@ -1,10 +1,10 @@
 package com.atguigu.common.exception;
 
 /**
- * @Description: 错误状态码枚举
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-05-27 17:29
+ * Description： 错误状态码枚举
+ *
+ * @author yltrcc
+ * 
  *
  * 错误码和错误信息定义类
  * 1. 错误码定义规则为5为数字

@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-05-28 18:53
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 
 @Configuration

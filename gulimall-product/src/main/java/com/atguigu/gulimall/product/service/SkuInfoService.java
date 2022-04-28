@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
 /**
  * sku信息
  *
- * @author 夏沫止水
+ * @author yltrcc
  * @email HeJieLin@gulimall.com
  * @date 2020-05-22 19:00:18
  */

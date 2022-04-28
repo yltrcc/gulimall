@@ -31,10 +31,10 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-27 09:33
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 public class HttpUtils {
 

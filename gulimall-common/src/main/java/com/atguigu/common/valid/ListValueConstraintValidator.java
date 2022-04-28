@@ -6,10 +6,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-05-27 17:54
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 public class ListValueConstraintValidator implements ConstraintValidator<ListValue,Integer> {
 

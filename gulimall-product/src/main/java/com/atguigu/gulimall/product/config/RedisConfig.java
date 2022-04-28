@@ -22,10 +22,10 @@ package com.atguigu.gulimall.product.config;// package com.atguigu.gulimall.prod
 // import java.time.Duration;
 //
 // /**
-//  * @Description:
-//  * @Created: with IntelliJ IDEA.
-//  * @author: 夏沫止水
-//  * @createTime: 2020-06-12 15:25
+//  * Description：
+//  *
+//  * @author yltrcc
+//  * 
 //  **/
 //
 // @Configuration

@@ -11,10 +11,10 @@ import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-12 15:19
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 
 @EnableConfigurationProperties(CacheProperties.class)

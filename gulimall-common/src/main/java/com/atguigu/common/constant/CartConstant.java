@@ -1,10 +1,10 @@
 package com.atguigu.common.constant;
 
 /**
- * @Description: 购物车常量
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-30 17:39
+ * Description： 购物车常量
+ *
+ * @author yltrcc
+ * 
  **/
 public class CartConstant {
 

@@ -3,10 +3,10 @@ package com.atguigu.gulimall.product.vo;
 import lombok.Data;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-23 18:59
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 
 @Data

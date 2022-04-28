@@ -9,7 +9,7 @@ import java.io.Serializable;
 /**
  * sku图片
  * 
- * @author 夏沫止水
+ * @author yltrcc
  * @email HeJieLin@gulimall.com
  * @date 2020-05-22 19:00:18
  */

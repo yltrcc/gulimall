@@ -1,10 +1,10 @@
 package com.atguigu.common.constant;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-01 17:10
+ * Description：
+ *
+ * @author yltrcc
+ * 
  **/
 public class WareConstant {
 

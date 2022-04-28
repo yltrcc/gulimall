@@ -7,9 +7,15 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+/**
+ * @Description:
+ * @Created: with IntelliJ IDEA.
+ * @author: 夏沫止水
+ * @createTime: 2020-06-01 08:41
+ **/
+
 @FeignClient("gulimall-coupon")
 public interface CouponFeignService {
-
 
     /**
      * 1、CouponFeignService.saveSpuBounds(spuBoundTo);
@@ -24,7 +30,6 @@ public interface CouponFeignService {
      */
     @PostMapping("/coupon/spubounds/save")
     R saveSpuBounds(@RequestBody SpuBoundTo spuBoundTo);
-
 
     @PostMapping("/coupon/skufullreduction/saveinfo")
     R saveSkuReduction(@RequestBody SkuReductionTo skuReductionTo);

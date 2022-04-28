@@ -9,9 +9,9 @@ import java.io.Serializable;
 /**
  * 商品属性
  * 
- * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-10-01 21:08:49
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:00:18
  */
 @Data
 @TableName("pms_attr")
@@ -31,10 +31,6 @@ public class AttrEntity implements Serializable {
 	 * 是否需要检索[0-不需要，1-需要]
 	 */
 	private Integer searchType;
-	/**
-	 * 值类型[0-为单个值，1-可以选择多个值]
-	 */
-	private Integer valueType;
 	/**
 	 * 属性图标
 	 */
@@ -60,7 +56,6 @@ public class AttrEntity implements Serializable {
 	 */
 	private Integer showDesc;
 
-//	@TableField(exist = false)
-//	private Long attrGroupId;
+
 
 }

@@ -1,20 +1,19 @@
 package com.atguigu.gulimall.product.dao;
 
-import com.atguigu.gulimall.product.entity.CategoryBrandRelationEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.atguigu.gulimall.product.entity.CategoryBrandRelationEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
  * 品牌分类关联
  * 
- * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-11-17 21:25:25
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:00:18
  */
 @Mapper
 public interface CategoryBrandRelationDao extends BaseMapper<CategoryBrandRelationEntity> {
 
     void updateCategory(@Param("catId") Long catId, @Param("name") String name);
-
 }

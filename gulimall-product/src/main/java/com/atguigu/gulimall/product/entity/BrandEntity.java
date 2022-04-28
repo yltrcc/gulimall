@@ -1,11 +1,11 @@
 package com.atguigu.gulimall.product.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.atguigu.common.valid.AddGroup;
 import com.atguigu.common.valid.ListValue;
 import com.atguigu.common.valid.UpdateGroup;
 import com.atguigu.common.valid.UpdateStatusGroup;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import org.hibernate.validator.constraints.URL;
 
@@ -15,9 +15,9 @@ import java.io.Serializable;
 /**
  * 品牌
  * 
- * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-10-01 21:08:49
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:00:18
  */
 @Data
 @TableName("pms_brand")
@@ -51,7 +51,7 @@ public class BrandEntity implements Serializable {
 	 */
 //	@Pattern()
 	@NotNull(groups = {AddGroup.class, UpdateStatusGroup.class})
-  	@ListValue(vals={0,1},groups = {AddGroup.class, UpdateStatusGroup.class})
+	@ListValue(vals={0,1},groups = {AddGroup.class, UpdateStatusGroup.class})
 	private Integer showStatus;
 	/**
 	 * 检索首字母

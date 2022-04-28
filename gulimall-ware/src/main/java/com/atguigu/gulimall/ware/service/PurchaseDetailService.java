@@ -11,8 +11,8 @@ import java.util.Map;
  * 
  *
  * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-11-17 13:50:10
+ * Email： leifengyang@gmail.com
+ * Date： 2019-11-17 13:50:10
  */
 public interface PurchaseDetailService extends IService<PurchaseDetailEntity> {
 

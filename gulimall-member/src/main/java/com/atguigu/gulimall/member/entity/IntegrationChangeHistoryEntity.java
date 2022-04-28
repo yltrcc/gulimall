@@ -11,8 +11,8 @@ import java.util.Date;
  * 积分变化历史记录
  * 
  * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-10-08 09:47:05
+ * Email： leifengyang@gmail.com
+ * Date： 2019-10-08 09:47:05
  */
 @Data
 @TableName("ums_integration_change_history")

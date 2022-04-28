@@ -14,8 +14,8 @@ import java.util.List;
  * 商品三级分类
  * 
  * @author yltrcc
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:00:18
+ * Email： ttxxly@163.com
+ * Date： 2020-05-22 19:00:18
  */
 @Data
 @TableName("pms_category")

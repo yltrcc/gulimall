@@ -22,8 +22,8 @@ import java.util.Map;
  * 属性分组
  *
  * @author yltrcc
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:00:18
+ * Email： ttxxly@163.com
+ * Date： 2020-05-22 19:00:18
  */
 @RestController
 @RequestMapping("product/attrgroup")

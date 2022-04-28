@@ -4,8 +4,8 @@ package io.renren.entity;
  * 列的属性
  * 
  * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年12月20日 上午12:01:45
+ * Email： sunlightcs@gmail.com
+ * Date： 2016年12月20日 上午12:01:45
  */
 public class ColumnEntity {
 	//列名

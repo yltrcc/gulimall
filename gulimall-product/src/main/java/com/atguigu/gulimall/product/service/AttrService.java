@@ -14,8 +14,8 @@ import java.util.Map;
  * 商品属性
  *
  * @author yltrcc
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:00:18
+ * Email： ttxxly@163.com
+ * Date： 2020-05-22 19:00:18
  */
 public interface AttrService extends IService<AttrEntity> {
 

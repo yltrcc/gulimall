@@ -10,8 +10,8 @@ import java.io.Serializable;
  * spu属性值
  * 
  * @author yltrcc
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:00:18
+ * Email： ttxxly@163.com
+ * Date： 2020-05-22 19:00:18
  */
 @Data
 @TableName("pms_product_attr_value")

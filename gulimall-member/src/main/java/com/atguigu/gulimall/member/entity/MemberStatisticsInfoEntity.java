@@ -11,8 +11,8 @@ import java.math.BigDecimal;
  * 会员统计信息
  * 
  * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-10-08 09:47:05
+ * Email： leifengyang@gmail.com
+ * Date： 2019-10-08 09:47:05
  */
 @Data
 @TableName("ums_member_statistics_info")

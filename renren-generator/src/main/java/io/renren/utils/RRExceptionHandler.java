@@ -15,8 +15,8 @@ import javax.servlet.http.HttpServletResponse;
  * 异常处理器
  * 
  * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2016年10月27日 下午10:16:19
+ * Email： sunlightcs@gmail.com
+ * Date： 2016年10月27日 下午10:16:19
  */
 @Component
 public class RRExceptionHandler implements HandlerExceptionResolver {

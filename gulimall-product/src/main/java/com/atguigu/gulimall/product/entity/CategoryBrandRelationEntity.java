@@ -10,8 +10,8 @@ import java.io.Serializable;
  * 品牌分类关联
  * 
  * @author yltrcc
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:00:18
+ * Email： ttxxly@163.com
+ * Date： 2020-05-22 19:00:18
  */
 @Data
 @TableName("pms_category_brand_relation")

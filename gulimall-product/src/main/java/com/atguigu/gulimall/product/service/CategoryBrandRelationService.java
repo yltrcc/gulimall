@@ -30,5 +30,6 @@ public interface CategoryBrandRelationService extends IService<CategoryBrandRela
     void updateCategory(Long catId, String name);
 
     List<BrandEntity> getBrandsByCatId(Long catId);
+    void updateDetail(BrandEntity brand);
 }
 

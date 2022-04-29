@@ -11,7 +11,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  **/
 
 @ConfigurationProperties(prefix = "gulimall.thread")
-// @Component
+//@Component
 @Data
 public class ThreadPoolConfigProperties {
 

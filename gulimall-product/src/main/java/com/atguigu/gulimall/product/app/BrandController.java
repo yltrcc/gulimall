@@ -7,6 +7,7 @@ import com.atguigu.common.valid.UpdateGroup;
 import com.atguigu.common.valid.UpdateStatusGroup;
 import com.atguigu.gulimall.product.entity.BrandEntity;
 import com.atguigu.gulimall.product.service.BrandService;
+import com.atguigu.gulimall.product.service.CategoryBrandRelationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -27,6 +28,9 @@ import java.util.Map;
 public class BrandController {
     @Autowired
     private BrandService brandService;
+
+    @Autowired
+    private CategoryBrandRelationService categoryBrandRelationService;
 
     /**
      * 列表
@@ -87,7 +91,7 @@ public class BrandController {
     @RequestMapping("/update")
     //@RequiresPermissions("product:brand:update")
     public R update(@Validated({UpdateGroup.class}) @RequestBody BrandEntity brand){
-		brandService.updateDetail(brand);
+        categoryBrandRelationService.updateDetail(brand);
 
         return R.ok();
     }

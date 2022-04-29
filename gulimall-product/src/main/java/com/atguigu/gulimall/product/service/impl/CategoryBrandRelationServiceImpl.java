@@ -1,9 +1,5 @@
 package com.atguigu.gulimall.product.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.Query;
 import com.atguigu.gulimall.product.dao.BrandDao;
@@ -14,8 +10,14 @@ import com.atguigu.gulimall.product.entity.CategoryBrandRelationEntity;
 import com.atguigu.gulimall.product.entity.CategoryEntity;
 import com.atguigu.gulimall.product.service.BrandService;
 import com.atguigu.gulimall.product.service.CategoryBrandRelationService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -92,6 +94,20 @@ public class CategoryBrandRelationServiceImpl extends ServiceImpl<CategoryBrandR
         }).collect(Collectors.toList());
 
         return collect;
+    }
+
+    @Transactional(rollbackFor = Exception.class)
+    @Override
+    public void updateDetail(BrandEntity brand) {
+        //保证冗余字段的数据一致
+        brandDao.updateById(brand);
+
+        if (!StringUtils.isEmpty(brand.getName())) {
+            //同步更新其他关联表中的数据
+            this.updateBrand(brand.getBrandId(),brand.getName());
+
+            //TODO 更新其他关联
+        }
     }
 
 }

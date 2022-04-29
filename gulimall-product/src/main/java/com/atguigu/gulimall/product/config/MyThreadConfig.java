@@ -23,6 +23,12 @@ public class MyThreadConfig {
 
     @Bean
     public ThreadPoolExecutor threadPoolExecutor(ThreadPoolConfigProperties pool) {
+        if (pool == null) {
+            pool = new ThreadPoolConfigProperties();
+        }
+        pool.setCoreSize(5);
+        pool.setMaxSize(20);
+        pool.setKeepAliveTime(1000);
         return new ThreadPoolExecutor(
                 pool.getCoreSize(),
                 pool.getMaxSize(),

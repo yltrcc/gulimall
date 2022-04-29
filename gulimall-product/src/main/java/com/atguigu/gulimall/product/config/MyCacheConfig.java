@@ -27,6 +27,11 @@ public class MyCacheConfig {
 
     /**
      * 配置文件的配置没有用上
+     *  原来和配置文件绑定的配置类是这样子的，
+     * @ConfigurationProperties(prefix = "spring.cache")
+     * public class CacheProperties {}
+     * 所以要让它生效 需要加上 @EnableConfigurationProperties(CacheProperties.class)
+     * 然后通过方法参数直接注入使用
      * @return
      */
     @Bean
